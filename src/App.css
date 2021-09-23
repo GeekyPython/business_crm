@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*
+{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+.App
+{
+    min-height: 100vh;
+    height: auto;
+    min-width: 100vw;
+    width: auto;
+}
+
+.userInfo
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+
+nav
+{
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+}
+
+.search-bar
+{
+    width: 100%;
+    padding: 1% 0;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group
+{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form-group input
+{
+    margin-right: 2%;
+}
+
+nav p
+{
+    color: #848fa1;
+}
+
+.order
+{
+    display: flex;
+    width: 80%;
+    overflow-x: hidden;
+    justify-content: space-between;
+    margin:2%;
+    /* box-shadow: 0 0 10px black; */
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #e4e6f2;
+    text-decoration: none;
+}
+
+.order:hover
+{
+    transform: scale(1.04);
+}
+
+.order h4
+{
+    color: #081457;
+    font-family:  'Lato', sans-serif;
+}
+
+.order-controls
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.orders-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-order-form
+{
+    display: flex;
+    row-gap: 1rem;
+    padding: 2rem 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 30%;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-order-form .form-group
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.add-order-form .form-group input
+{
+    width: 83%;
+}
+
+.add-order-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    width: auto;
+}
+
+.edit-orders-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    width: auto;
+}
+
+.edit-order-form
+{
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.edit-order-form input
+{
+    width: 85%;
+}
+
+.modal
+{
+    width: 20%;
+    height: 10%;
+    background-color: blanchedalmond;
+}
+
+.edit-orders-container .form-group
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-page
+{
+    min-width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-module
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
